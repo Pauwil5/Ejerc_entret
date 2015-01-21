@@ -1,0 +1,12 @@
+puts "Ingrese el valor del lado a"
+lado_a = gets.chomp.to_i
+puts "Ingrese el valor del lado b"
+lado_b = gets.chomp.to_i
+long_hipo = (lado_a**2)+(lado_b**2)
+
+if long_hipo = (long_hipo)**-2
+	puts "La longitud de la hipotenusa es #{resultado}"
+else
+	puts "Corregir"
+end
+
