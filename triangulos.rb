@@ -5,9 +5,9 @@ b=gets.chomp.to_i
 puts "Ingrese  la longitud del lado c"
 c=gets.chomp.to_i
 
-if a = b && b = c
+if a == b && b == c
 	puts  "Es un triángulo equilátero"
-elsif |a = b| |b = c| #redefinir
+elsif a==b || b==c || a==c #redefinir
 	puts "Es un triángulo isóceles"
 else  
 	puts "Es un triángulo escaleno"
